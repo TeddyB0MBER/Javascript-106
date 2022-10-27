@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+h1  { 
+    text-align: center;
+    color: burlywood;
+    background-color:  darkolivegreen;
+}
+h3 { 
+    color: rgb(27, 163, 88);
+}
+.parent {
+    display:flex;
+    background-image:url("image/Mountain.jpg");
+    background-size: 100%;
+    /*  Background: url: lets you set a copied image  as a background by pasting the url */
+    /* background repeat prevents an image from repeating itself if it does not fit repeat:no repeat; */
+}
+
+.list {
+    flex:3;
+}
+.form {
+    flex:1;
+    background-color: rgba(255, 255, 255, 0.774);
+}
+.my-control {
+    display: flex;
+    margin-bottom: 10px;
+    padding:5px;
+}
+.my-control label {
+    width:110px;
+    text-align: right; 
+    margin-right:5px;
+}
+
+.my-control input,
+.my-control select,
+.my-control textarea {
+    flex-grow: 1;
+}
+.centered {
+    text-align: center;
+}
+.icon { 
+    font-size: 24px;
+    color: rgb(135, 141, 222);
+    /* cursor turns your mouse into the pointing hand */
+     cursor:pointer;  
+}
