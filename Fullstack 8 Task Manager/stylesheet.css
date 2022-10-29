@@ -1,20 +1,23 @@
 * {
-    margin:0;
+    margin:1;
     padding: 0;
 }
 
 h1  { 
     text-align: center;
     color: burlywood;
-    background-color:  darkolivegreen;
+    background-color:  rgb(73, 119, 189);
 }
-h3 { 
-    color: rgb(27, 163, 88);
+h2 { 
+    color: rgb(30, 13, 107);
+    background-color: aliceblue;
 }
+body { 
+    background-image:url("image/Mountain.jpg");
+    background-size: 100%;}
 .parent {
     display:flex;
-    background-image:url("image/Mountain.jpg");
-    background-size: 100%;
+
     /*  Background: url: lets you set a copied image  as a background by pasting the url */
     /* background repeat prevents an image from repeating itself if it does not fit repeat:no repeat; */
 }
@@ -25,7 +28,9 @@ h3 {
 .form {
     flex:1;
     background-color: rgba(255, 255, 255, 0.774);
+    
 }
+/* Display Block forces a tag to take the entire width, and pushes everything else under it  */
 .my-control {
     display: flex;
     margin-bottom: 10px;
@@ -50,4 +55,11 @@ h3 {
     color: rgb(135, 141, 222);
     /* cursor turns your mouse into the pointing hand */
      cursor:pointer;  
+}
+.task {
+    background-color: rgba(240, 248, 255, 0.788);
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
 }
