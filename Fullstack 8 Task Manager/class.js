@@ -8,6 +8,8 @@ class Task { //Objects start with a capital letter
         this.color = color;
         this.contact = contact;
         this.participant = participant;
+        
+        this.developer = "Tuong";
     }
 
     //test (){};
